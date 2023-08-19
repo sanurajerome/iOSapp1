@@ -14,6 +14,7 @@
 		BD49B9072A9110D100DFFE8D /* FirstIoSappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9062A9110D100DFFE8D /* FirstIoSappTests.swift */; };
 		BD49B9112A9110D100DFFE8D /* FirstIoSappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9102A9110D100DFFE8D /* FirstIoSappUITests.swift */; };
 		BD49B9132A9110D100DFFE8D /* FirstIoSappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9122A9110D100DFFE8D /* FirstIoSappUITestsLaunchTests.swift */; };
+		BD49B9222A911DDB00DFFE8D /* TabView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9212A911DDB00DFFE8D /* TabView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BD49B90C2A9110D100DFFE8D /* FirstIoSappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstIoSappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD49B9102A9110D100DFFE8D /* FirstIoSappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIoSappUITests.swift; sourceTree = "<group>"; };
 		BD49B9122A9110D100DFFE8D /* FirstIoSappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIoSappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD49B9212A911DDB00DFFE8D /* TabView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BD49B8F52A9110D000DFFE8D /* FirstIoSappApp.swift */,
 				BD49B8F72A9110D000DFFE8D /* ContentView.swift */,
+				BD49B9212A911DDB00DFFE8D /* TabView2.swift */,
 				BD49B8F92A9110D100DFFE8D /* Assets.xcassets */,
 				BD49B8FB2A9110D100DFFE8D /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD49B8F82A9110D000DFFE8D /* ContentView.swift in Sources */,
+				BD49B9222A911DDB00DFFE8D /* TabView2.swift in Sources */,
 				BD49B8F62A9110D000DFFE8D /* FirstIoSappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

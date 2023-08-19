@@ -18,17 +18,24 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             
-            VStack{
-                Text(selection.rawValue)
-                    .font(.system(size:150))
+            VStack(alignment: .center){
                 
                 Picker("Select Emoji",selection: $selection){
                     ForEach(Emoji.allCases, id: \.self){emoji in
                         Text(emoji.rawValue)
-                    }
+                
+                
+                
+                     }
+                    
                 }
                 
                 .pickerStyle(.segmented)
+                
+                Text(selection.rawValue)
+                    .font(.system(size:150))
+                
+                
             }
             .navigationTitle("Emoji Lovers!")
             .padding()
